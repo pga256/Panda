@@ -1,0 +1,15 @@
+overwrite: true
+keepDistributor: false
+kernel_params: [ "quiet nvidia_drm.modeset=1 libata.force=noncq loglevel=3 ipv6.disable=1" ]
+defaults:
+    GRUB_TIMEOUT: 1
+    GRUB_TIMEOUT_STYLE: "hidden"
+    GRUB_DEFAULT: 0
+    GRUB_DISABLE_SUBMENU: true
+    GRUB_TERMINAL_OUTPUT: "console"
+    GRUB_TERMINAL_INPUT: "console"
+    GRUB_DISABLE_RECOVERY: true
+    GRUB_ENABLE_CRYPTODISK: true
+    GRUB_GFXPAYLOAD_LINUX: "keep"
+    GRUB_DISTRIBUTOR: "Game"
+    GRUB_PRELOAD_MODULES: "part_gpt part_msdos"

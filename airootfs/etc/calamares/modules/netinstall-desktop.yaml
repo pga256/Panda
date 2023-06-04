@@ -1,0 +1,88 @@
+- name: "Desktop: Cinnamon"
+  description: "Installs cinnamon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - nemo-fileroller
+    - cinnamon-translations
+    - gnome-screenshot
+    - gnome-system-monitor
+    - gnome-terminal
+    - iso-flag-png
+- name: "Desktop: Gnome"
+  description: "Installs gnome desktop"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-extra
+    - guake
+    - ttf-hack
+- name: "Desktop: LXDE"
+  description: "Installs LXDE desktop"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - lxappearance
+    - lxappearance-obconf
+    - lxde-common
+    - lxde-icon-theme
+    - lxhotkey
+    - lxinput
+    - lxlauncher
+    - lxmenu-data
+    - lxrandr
+    - lxsession
+    - lxtask
+    - openbox
+- name: "Desktop: Mate"
+  description: "Installs mate desktop"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - mate-tweak
+    - dmenu
+    - gnome-screenshot
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - xfce4-terminal
+- name: "Desktop: KDE Plasma"
+  description: "Installs plasma desktop"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - plasma-desktop
+    - plasma-meta
+    - kde-applications-meta
+    - kde-system-meta
+    - kdeconnect
+    - ktorrent
+    - packagekit-qt5
+    - partitionmanager
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+- name: "Desktop: Xfce"
+  description: "Installs xfce desktop"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - dmenu
+    - gmrun

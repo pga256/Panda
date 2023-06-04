@@ -1,0 +1,7 @@
+[Added Associations]
+application/octet-stream=leafpad.desktop;
+application/x-alpm-package=org.gnome.FileRoller.desktop;
+application/x-desktop=leafpad.desktop;
+text/plain=leafpad.desktop;
+
+[Default Applications]

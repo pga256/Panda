@@ -1,0 +1,6 @@
+bind
+boost-libs
+edk2-shell
+refind
+rsync
+

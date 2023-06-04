@@ -1,0 +1,29 @@
+- name: "Wine"
+  description: "Wine software for running MS Windows™ compatible software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - wine
+    - ttf-ms-fonts
+    - lib32-gnutls
+    - lib32-libpulse
+- name: "Steam"
+  description: "Valve's Steam™ client"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - steam
+    - lib32-gnutls
+- name: "Lutris"
+  description: "Lutris Open Gaming Platform "
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - lutris
+    - lib32-gnutls

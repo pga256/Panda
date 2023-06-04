@@ -1,0 +1,36 @@
+- name: "Firefox"
+  description: "Firefox browser and plugins"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  packages:
+    - firefox
+    - firefox-ublock-origin
+    - firefox-i18n-$LOCALE
+    - firefox-noscript
+- name: "Chromium"
+  description: "Chromium browser and plugins"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - chromium
+    - ublock-origin
+- name: "Discord"
+  description: "Discord communication software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - discord
+- name: "Deluge"
+  description: "Deluge bittorrent client"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - deluge-gtk

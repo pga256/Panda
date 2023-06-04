@@ -1,0 +1,28 @@
+- name: "Firewall Software"
+  description: "Installs Opensnitch and Gufw firewalls"
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - gufw
+    - opensnitch
+    - python-grpcio
+    - python-protobuf
+    - python-slugify
+    - python-pyqt5
+    - abseil-cpp
+    - python-pyinotify
+- name: "Extra System Utilities"
+  description: "Extra Utility software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - bleachbit
+    - htop
+    - pamac-aur
+    - stacer
+    - systemd-manager
+    - usbimager

@@ -1,0 +1,24 @@
+componentName:  panda
+welcomeStyleCalamares:   false
+welcomeExpandingLogo:   true
+windowExpanding:    noexpand
+windowSize: 1120px,600px
+windowPlacement: center
+strings:
+    productName:         Panda Linux 23.06 Offline
+    shortProductName:    Panda 23.06 Offline
+    version:             23.06
+    shortVersion:        23.06
+    versionedName:       Panda Linux 23.06 Offline
+    shortVersionedName:  Panda 23.06
+    bootloaderEntryName: Panda
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+slideshow:               "show.qml"
+style:
+   SidebarBackground:        "#357f8f"
+   SidebarText:              "#f1f1f0"
+   SidebarTextCurrent:       "#8d814e"
+   SidebarBackgroundCurrent: "#1a1c1b"

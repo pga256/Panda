@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Installer
+Name[da]=Installer
+GenericName=Installer
+GenericName[da]=Installationsprogram
+Comment=Install the operating system to disk
+Comment[da]=Installer styresystemet på disk
+Comment[de]=Game Linux installieren
+Exec=pkexec calamares
+Icon=/usr/share/images/archlinux.png
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Qt;System;

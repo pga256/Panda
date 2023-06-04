@@ -1,0 +1,6 @@
+#@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xset s off
+@xset -dpms
+@setxkbmap -option compose:lwin
+nvidia-settings --load-config-only

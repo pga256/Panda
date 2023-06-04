@@ -1,0 +1,36 @@
+- name: "Zen kernel"
+  description: "Installs the linux-zen kernel and headers."
+  critical: true
+  hidden: false
+  expanded: false
+  selected: true
+  packages:
+    - linux-zen
+    - linux-zen-headers
+- name: "Linux kernel"
+  description: "Installs the standard Arch kernel."
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - linux
+    - linux-headers
+- name: "Linux-lts kernel"
+  description: "Installs the Arch long term support kernel."
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - linux-lts
+    - linux-lts-headers
+- name: "Hardened kernel"
+  description: "Installs the hardened Arch kernel."
+  critical: false
+  hidden: false
+  expanded: false
+  selected: false
+  packages:
+    - linux-hardened
+    - linux-hardened-headers

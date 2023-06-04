@@ -1,0 +1,6 @@
+mkinitcpio-nfs-utils
+smartmontools
+nfs-utils
+nilfs-utils
+nvme-cli
+pcsclite
