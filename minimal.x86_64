@@ -182,6 +182,7 @@ thunar-volman
 tumbler
 xfce4-datetime-plugin
 xfce4-panel
+xfce4-power-manager
 xfce4-pulseaudio-plugin
 xfce4-settings
 xfce4-terminal
@@ -201,6 +202,7 @@ lsof
 #lib32-nvidia-utils
 #libnotify
 #libxnvctrl
+network-manager-applet
 #nvidia-dkms
 #nvidia-settings
 #nvidia-utils

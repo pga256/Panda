@@ -396,10 +396,6 @@ _make_customize_airootfs() {
                 fi
                 cp -vdnRT --preserve=mode,timestamps,links -- "${pacstrap_dir}/etc/skel/." "${pacstrap_dir}${passwd[5]}"
                 rm "${pacstrap_dir}/etc/skel/Desktop/calamares.desktop"
-#                cp "${pacstrap_dir}/usr/share/game-tools/Setup Battle.net.desktop" "${pacstrap_dir}/etc/skel/Desktop/"
-#                chmod 700 "${pacstrap_dir}/etc/skel/Desktop/Setup Battle.net.desktop"
-#                chmod -R 755 "${pacstrap_dir}/usr/share/game-tools"
-#                chmod 644 "${pacstrap_dir}/usr/share/game-tools/linux-zen.preset"
                 find "${pacstrap_dir}${passwd[5]}" -type d -print0 | xargs -0 chmod 700
                 find "${pacstrap_dir}${passwd[5]}" -type f -print0 | xargs -0 chmod 600
                 chmod 700 "${pacstrap_dir}${passwd[5]}/Desktop/calamares.desktop"
