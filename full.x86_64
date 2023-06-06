@@ -142,7 +142,7 @@ gawk
 gparted
 gpicview
 gvfs
-leafpad
+#leafpad
 lightdm
 lightdm-gtk-greeter
 #linux-zen
@@ -157,7 +157,7 @@ lxpanel-gtk3
 lxrandr
 lxsession
 lxtask
-#lxterminal
+lxterminal
 noto-fonts
 obconf
 os-prober
@@ -173,6 +173,8 @@ xorg-xset
 ################################
 # XFCE Panel and Menu Packages #
 ################################
+xfce4
+xfce4-goodies
 exo
 garcon
 libxfce4ui
@@ -187,7 +189,7 @@ xfce4-pulseaudio-plugin
 xfce4-settings
 xfce4-terminal
 xfce4-whiskermenu-plugin
-xfconf
+#xfconf
 ##################################
 #   Panda-Linux extra packages   #
 ##################################
@@ -199,13 +201,13 @@ htop
 #lib32-libldap
 #lib32-libpulse
 lsof
-#lib32-nvidia-utils
+lib32-nvidia-utils
 #libnotify
 #libxnvctrl
 network-manager-applet
-#nvidia-dkms
-#nvidia-settings
-#nvidia-utils
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 #opensnitch
 pamac-aur
 #python-grpcio
@@ -213,18 +215,17 @@ pamac-aur
 #python-slugify
 #python-pyqt5
 #python-pyinotify
-ttf-ms-fonts
+#ttf-ms-fonts
 #wine
 ##################################
 # Panda-Linux Full .iso packages #
 ##################################
-audacious
-deluge-gtk
-discord
-dxvk-mingw-git
-gimp
-gnome-boxes
-libreoffice-fresh
-lutris
-smplayer
-wine
+#audacious
+#deluge-gtk
+#discord
+#dxvk-mingw-git
+#gimp
+#gnome-boxes
+#libreoffice-fresh
+#lutris
+#smplayer

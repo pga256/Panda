@@ -142,7 +142,7 @@ gawk
 gparted
 gpicview
 gvfs
-leafpad
+#leafpad
 lightdm
 lightdm-gtk-greeter
 #linux-zen
@@ -157,7 +157,7 @@ lxpanel-gtk3
 lxrandr
 lxsession
 lxtask
-#lxterminal
+lxterminal
 noto-fonts
 obconf
 os-prober
@@ -187,7 +187,7 @@ xfce4-pulseaudio-plugin
 xfce4-settings
 xfce4-terminal
 xfce4-whiskermenu-plugin
-xfconf
+#xfconf
 ##################################
 #   Panda-Linux extra packages   #
 ##################################

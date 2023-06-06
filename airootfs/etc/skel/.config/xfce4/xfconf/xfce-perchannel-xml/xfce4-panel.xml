@@ -28,6 +28,7 @@
         <value type="int" value="8"/>
         <value type="int" value="16"/>
         <value type="int" value="11"/>
+        <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="7"/>
       </property>
@@ -35,10 +36,10 @@
       <property name="nrows" type="uint" value="1"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="1.000000"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
       </property>
       <property name="leave-opacity" type="uint" value="64"/>
     </property>
@@ -133,5 +134,6 @@
       <property name="mpris-players" type="string" value="firefox.instance1063;firefox.instance11348;firefox.instance1377;firefox.instance15806;firefox.instance1770;firefox.instance1902;firefox.instance2056;firefox.instance2209;firefox.instance2309;firefox.instance2493;firefox.instance2845;firefox.instance2871;firefox.instance3259;firefox.instance3372;firefox.instance3435;firefox.instance4947;firefox.instance6969;firefox.instance7200;firefox.instance728;firefox.instance738;firefox.instance754;firefox.instance758;firefox.instance774;firefox.instance775;firefox.instance784;firefox.instance785;firefox.instance788;firefox.instance805;firefox.instance806;firefox.instance829;firefox.instance8390;firefox.instance840;firefox.instance8581;firefox.instance8685;firefox.instance933;smplayer"/>
     </property>
     <property name="plugin-16" type="string" value="datetime"/>
+    <property name="plugin-12" type="string" value="power-manager-plugin"/>
   </property>
 </channel>
