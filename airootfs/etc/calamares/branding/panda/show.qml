@@ -132,7 +132,7 @@ Presentation
     Slide {
 
         Image {
-            id: background1
+            id: background6
             source: "slide6.png"
             width: 800; height: 440
             fillMode: Image.PreserveAspectFit
@@ -151,7 +151,7 @@ Presentation
     Slide {
 
         Image {
-            id: background1
+            id: background7
             source: "slide7.png"
             width: 800; height: 440
             fillMode: Image.PreserveAspectFit
