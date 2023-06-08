@@ -142,7 +142,7 @@ gawk
 gparted
 gpicview
 gvfs
-#leafpad
+leafpad
 lightdm
 lightdm-gtk-greeter
 #linux-zen

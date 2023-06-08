@@ -28,7 +28,7 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 20000
+        interval: 40000
         running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
@@ -122,6 +122,44 @@ Presentation
         Text {
             anchors.horizontalCenter: background5.horizontalCenter
             anchors.top: background5.bottom
+            text: ""
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+        }
+    }
+    
+    Slide {
+
+        Image {
+            id: background1
+            source: "slide6.png"
+            width: 800; height: 440
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background1.horizontalCenter
+            anchors.top: background1.bottom
+            text: ""
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+        }
+    }
+    
+    Slide {
+
+        Image {
+            id: background1
+            source: "slide7.png"
+            width: 800; height: 440
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background1.horizontalCenter
+            anchors.top: background1.bottom
             text: ""
             wrapMode: Text.WordWrap
             width: 800
