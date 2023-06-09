@@ -2,7 +2,7 @@ componentName:  panda
 welcomeStyleCalamares:   false
 welcomeExpandingLogo:   true
 windowExpanding:    noexpand
-windowSize: 1120px,600px
+windowSize: 960px,680px
 windowPlacement: center
 strings:
     productName:         Panda Linux 23.06 Offline
