@@ -2,14 +2,14 @@ componentName:  panda
 welcomeStyleCalamares:   false
 welcomeExpandingLogo:   true
 windowExpanding:    noexpand
-windowSize: 960px,680px
+windowSize: 800px,640px
 windowPlacement: center
 strings:
-    productName:         Panda Linux 23.06 Offline
+    productName:         Panda Linux 23.06
     shortProductName:    Panda 23.06 Offline
     version:             23.06
     shortVersion:        23.06
-    versionedName:       Panda Linux 23.06 Offline
+    versionedName:       Panda Linux 23.06
     shortVersionedName:  Panda 23.06
     bootloaderEntryName: Panda
 images:

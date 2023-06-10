@@ -17,7 +17,7 @@
  */
 
 /*
- * Slides images dimensions are 800x566px.
+ * Slides images dimensions are 760x480px.
  */
 
 import QtQuick 2.0;
@@ -39,7 +39,7 @@ Presentation
         Image {
             id: background1
             source: "slide1.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -48,7 +48,7 @@ Presentation
             anchors.top: background1.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -58,7 +58,7 @@ Presentation
         Image {
             id: background2
             source: "slide2.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -67,7 +67,7 @@ Presentation
             anchors.top: background2.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -77,7 +77,7 @@ Presentation
         Image {
             id: background3
             source: "slide3.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -86,7 +86,7 @@ Presentation
             anchors.top: background3.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -96,7 +96,7 @@ Presentation
         Image {
             id: background4
             source: "slide4.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -105,7 +105,7 @@ Presentation
             anchors.top: background4.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -115,7 +115,7 @@ Presentation
         Image {
             id: background5
             source: "slide5.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -124,7 +124,7 @@ Presentation
             anchors.top: background5.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -134,7 +134,7 @@ Presentation
         Image {
             id: background6
             source: "slide6.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -143,7 +143,7 @@ Presentation
             anchors.top: background1.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
@@ -153,7 +153,7 @@ Presentation
         Image {
             id: background7
             source: "slide7.png"
-            width: 800; height: 566
+            width: 760; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -162,7 +162,7 @@ Presentation
             anchors.top: background1.bottom
             text: ""
             wrapMode: Text.WordWrap
-            width: 800
+            width: 760
             horizontalAlignment: Text.Center
         }
     }
