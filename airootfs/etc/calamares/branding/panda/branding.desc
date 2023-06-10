@@ -14,8 +14,8 @@ strings:
     bootloaderEntryName: Panda
 images:
     productLogo:         "logo.png"
-    productIcon:         "logo.png"
-    productWelcome:      "languages.png"
+    productIcon:         "logo3.png"
+    productWelcome:      "logo2.png"
 slideshow:               "show.qml"
 style:
    SidebarBackground:        "#357f8f"

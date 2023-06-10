@@ -177,6 +177,7 @@ xfce4
 xfce4-goodies
 exo
 garcon
+gsfonts
 libxfce4ui
 libxfce4util
 thunar
@@ -210,6 +211,7 @@ nvidia-settings
 nvidia-utils
 #opensnitch
 pamac-aur
+picom
 #python-grpcio
 #python-protobuf
 #python-slugify

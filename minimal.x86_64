@@ -175,6 +175,7 @@ xorg-xset
 ################################
 exo
 garcon
+gsfonts
 libxfce4ui
 libxfce4util
 thunar
@@ -208,6 +209,7 @@ network-manager-applet
 #nvidia-utils
 #opensnitch
 pamac-aur
+picom
 #python-grpcio
 #python-protobuf
 #python-slugify

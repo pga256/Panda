@@ -4,3 +4,4 @@
 @xset -dpms
 @setxkbmap -option compose:lwin
 nvidia-settings --load-config-only
+picom -b

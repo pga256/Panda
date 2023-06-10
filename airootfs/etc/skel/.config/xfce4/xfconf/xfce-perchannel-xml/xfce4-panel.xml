@@ -8,8 +8,8 @@
       <property name="position" type="string" value="p=8;x=960;y=1066"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="25"/>
-      <property name="size" type="uint" value="29"/>
+      <property name="icon-size" type="uint" value="28"/>
+      <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
         <value type="int" value="5"/>
@@ -42,7 +42,8 @@
         <value type="double" value="1"/>
       </property>
       <property name="leave-opacity" type="uint" value="64"/>
-    </property>
+      <property name="background-image" type="string" value="file:///usr/share/images/Glass%20Bottom%20Panel%20Background/glass%20slim-black.png"/>
+   </property>
     <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
