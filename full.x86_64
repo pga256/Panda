@@ -142,7 +142,8 @@ gawk
 gparted
 gpicview
 gvfs
-#leafpad
+leafpad
+lib32-mesa
 lightdm
 lightdm-gtk-greeter
 #linux-zen
@@ -158,6 +159,7 @@ lxrandr
 lxsession
 lxtask
 lxterminal
+mesa
 noto-fonts
 obconf
 os-prober
