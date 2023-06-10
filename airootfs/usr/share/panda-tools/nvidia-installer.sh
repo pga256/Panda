@@ -1,7 +1,7 @@
 #! /bin/bash
 
-pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings /
-vulkan-icd-loader lib32-vulkan-icd-loader
+pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings \
+vulkan-icd-loader lib32-vulkan-icd-loader --noconfirm
 
 sync
 

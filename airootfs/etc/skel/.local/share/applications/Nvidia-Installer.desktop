@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=Nvidia Installer
-Exec=xfce4-terminal --command="/usr/share/panda-tools/nvidia-installer.sh"
+Exec=pkexec "/usr/share/panda-tools/nvidia-installer.sh"
 Type=Application
 StartupNotify=true
 Comment=Click here to install the latest Nvidia driver.
 Path=/usr/share/panda-tools
 Icon=/usr/share/panda-tools/icons/nvidia-installer.png
 StartupWMClass=bash
+Terminal=true
