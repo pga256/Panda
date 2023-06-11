@@ -6,7 +6,6 @@ NVLOADED=""
 for line in $(cat ./Nvidia_470.list); do
     if [[ $CARD = *$line* ]]
     then
-        echo Legacy Nvidia card Detected.  Installing Nvidia 470 Driver components.
         NV=1
     fi    
 done
