@@ -211,7 +211,7 @@ network-manager-applet
 #nvidia-utils
 #opensnitch
 pamac-aur
-picom
+#picom
 #python-grpcio
 #python-protobuf
 #python-slugify
