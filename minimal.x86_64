@@ -49,7 +49,7 @@ less
 #libusb-compat
 linux-zen
 linux-zen-headers
-linux-firmware
+linux-firmware-git
 #linux-firmware-marvell
 #livecd-sounds
 #lsscsi

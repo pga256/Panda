@@ -357,7 +357,7 @@ _make_packages() {
     fi
 
     env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./calamares-git-.r10593.63c3f6861-1-x86_64.pkg.tar.zst
-#    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./popt-1.18-3-x86_64.pkg.tar.zst
+#    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./AMD_Install/*.pkg.tar.zst
 #    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./extra_packages/*.pkg.tar.zst
 #    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./Packages/*.pkg.tar.zst
 
