@@ -1,19 +1,19 @@
 #! /bin/bash
 
-$CARD=$(lspci |grep VGA)
+CARD="$(lspci |grep VGA)"
 NV=0
-NVLOADED=""
-for line in $(cat ./Nvidia_470.list); do
-    if [[ $CARD = *$line* ]]
+NVLOADED=0
+for line in $(cat /usr/share/panda-tools/Nvidia_470.list); do
+    if echo $CARD |grep $line
     then
-        NV=1
+        NV=1 
     fi    
 done
-if [[ $NV=1 ]]
+if [[ $NV -eq 1 ]] 
     then
         echo Legacy Nvidia card Detected.  Installing Nvidia 470 Driver components.
         pacman -Sy nvidia-470xx-dkms nvidia-470xx-utils lib32-nvidia-470xx-utils nvidia-470xx-settings \
-      vulkan-icd-loader lib32-vulkan-icd-loader --noconfirm
+        vulkan-icd-loader lib32-vulkan-icd-loader --noconfirm
     else
         echo Nvidia card Detected.  Installing Nvidia Driver components.
         pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings \
