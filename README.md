@@ -1,5 +1,5 @@
 # Panda Linux
-==============
+===================
 
 Panda Linux has two distinct build variants:
 A fully featured live image with many packages preinstalled, 
@@ -30,3 +30,5 @@ Look in the favourites section of the Panda menu for the Nvidia-Installer shortc
 ---------------------------------------------------------------------------------------
 
 Please report any issues with Panda Linux using the issues section of this Github page.
+Your feedback is truly important! Please leave any comments you have so Panda Linux can
+get better and better!
