@@ -195,7 +195,7 @@ xfce4-whiskermenu-plugin
 #   Panda-Linux extra packages   #
 ##################################
 #abseil-cpp
-#dxvk-mingw-git
+dxvk-mingw-git
 gufw
 htop
 #lib32-gnutls
@@ -217,6 +217,7 @@ pamac-aur
 #python-slugify
 #python-pyqt5
 #python-pyinotify
+steam
 ttf-ms-fonts
 #wine
 

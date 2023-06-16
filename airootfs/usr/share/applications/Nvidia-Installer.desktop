@@ -8,3 +8,4 @@ Path=/usr/share/panda-tools
 Icon=/usr/share/panda-tools/icons/nvidia-installer.png
 StartupWMClass=bash
 Terminal=true
+Categories=Settings;X-LXDE-Settings;

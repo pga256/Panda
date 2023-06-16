@@ -1,10 +1,9 @@
 # Panda Linux
 ===================
 
-Panda Linux has two distinct build variants:
-A fully featured live image with many packages preinstalled, 
-or the minimal build live image with only the bare essentials.
-
+Panda Linux is a minimalist distribution, based on Arch Linux.
+It comes complete with installers for gaming platforms such as
+Steam™, Battle.net™ via wine software and Lutris.
 It is recommended to use a program such as Balena-Etcher or Rufus 
 to burn the .iso to a USB flash drive for best results.
 

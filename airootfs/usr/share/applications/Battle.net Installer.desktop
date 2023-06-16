@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Battle.net Installer
+Exec=/usr/share/game-tools/SetupBattle.net.sh
+Type=Application
+StartupNotify=true
+Comment=Click here to set up Battle.net.
+Path=/usr/share/game-tools
+Icon=/usr/share/game-tools/icons/Battle.net-Setup.png
+StartupWMClass=wine
+Terminal=true
+Categories=Gaming;Games;
