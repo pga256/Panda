@@ -198,9 +198,10 @@ xfce4-whiskermenu-plugin
 dxvk-mingw-git
 gufw
 htop
-#lib32-gnutls
-#lib32-libldap
-#lib32-libpulse
+lib32-alsa-lib
+lib32-gnutls
+lib32-libldap
+lib32-libpulse
 lsof
 #lib32-nvidia-utils
 #libnotify
@@ -217,7 +218,7 @@ pamac-aur
 #python-slugify
 #python-pyqt5
 #python-pyinotify
-steam
+#steam
 ttf-ms-fonts
 #wine
 

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Steam Installer
+Exec=pkexec "/usr/share/game-tools/SetupSteam.sh"
+Type=Application
+StartupNotify=true
+Comment=Click here to set up Steam™ from Valve Software™.
+Path=/usr/share/game-tools
+Icon=/usr/share/game-tools/icons/Steam-Setup.png
+StartupWMClass=bash
+Terminal=true
+Categories=Games;

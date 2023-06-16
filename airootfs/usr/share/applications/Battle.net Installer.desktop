@@ -8,4 +8,4 @@ Path=/usr/share/game-tools
 Icon=/usr/share/game-tools/icons/Battle.net-Setup.png
 StartupWMClass=wine
 Terminal=true
-Categories=Gaming;Games;
+Categories=Games;
