@@ -19,11 +19,14 @@ if [[ $NV -eq 1 ]]
         pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings \
         vulkan-icd-loader lib32-vulkan-icd-loader --noconfirm
 fi
+mkinitcpio -P
 sync
 NVLOADED=$(lspci -k | grep -A 2 -E "(VGA|3D)" |grep "Kernel driver in use: nvidia")
 if  [[ $NVLOADED ]]
     then    
         read -s -n 1 -p "SUCCESS!  Nvidia drivers have been installed. ** Reboot recommended. ** Press a key to exit . . ."
+        echo 'NoDisplay=true' >> /usr/share/applications/Nvidia-Installer.desktop
+        echo 'NoDisplay=true' >> /usr/share/panda-tools/Nvidia-Installer.desktop
     else
         read -s -n 1 -p "Nvidia drivers have not been installed. Press a key to exit . . ."
 fi

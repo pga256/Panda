@@ -5,12 +5,12 @@ if [[ $(lspci |grep VGA |grep NVIDIA) ]]; then
        NVSUCCESS=1
    else
        echo You need to install the Nvidia driver and utilities first! 
-       Exec=pkexec "/usr/share/panda-tools/nvidia-installer.sh"    
+       pkexec /usr/share/panda-tools/nvidia-installer.sh    
        sync
    fi
 fi
 if [[ -d "/home/$USER/wine" ]]; then
-       echo wine containers folder already exists.
+       echo the Wine containers folder already exists.
    else
        mkdir /home/$USER/wine
 fi
