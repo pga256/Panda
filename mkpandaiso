@@ -356,7 +356,14 @@ _make_packages() {
         env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -- "${pacstrap_dir}" "${buildmode_pkg_list[@]}"
     fi
 
-    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./calamares-git-.r10593.63c3f6861-1-x86_64.pkg.tar.zst
+pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
+pacman-key --recv-key 349BC7808577C592 --keyserver keyserver.ubuntu.com
+pacman-key --recv-key EE4780313838BB4D --keyserver keyserver.ubuntu.com
+pacman-key --lsign-key EE4780313838BB4D
+pacman-key --lsign-key 349BC7808577C592
+pacman-key --lsign-key FBA220DFC880C036
+
+#    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./calamares-git-.r10593.63c3f6861-1-x86_64.pkg.tar.zst
 #    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./AMD_Install/*.pkg.tar.zst
 #    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./extra_packages/*.pkg.tar.zst
 #    env -u TMPDIR pacstrap -C "${work_dir}/${buildmode}.pacman.conf" -c -G -M -U -- "${pacstrap_dir}" ./Packages/*.pkg.tar.zst
