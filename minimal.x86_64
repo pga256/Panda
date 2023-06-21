@@ -129,8 +129,8 @@ alsa-utils
 arc-gtk-theme
 arc-icon-theme
 boost-libs
-#calamares
-chaotic-keyring
+calamares-git
+#chaotic-keyring
 downgrade
 file-roller
 firefox
@@ -146,8 +146,6 @@ leafpad
 lib32-mesa
 lightdm
 lightdm-gtk-greeter
-#linux-zen
-#linux-zen-headers
 lxappearance
 lxappearance-obconf
 lxde-common
@@ -190,11 +188,9 @@ xfce4-pulseaudio-plugin
 xfce4-settings
 xfce4-terminal
 xfce4-whiskermenu-plugin
-#xfconf
 ##################################
 #   Panda-Linux extra packages   #
 ##################################
-#abseil-cpp
 dxvk-mingw-git
 gufw
 htop
@@ -203,22 +199,7 @@ lib32-gnutls
 lib32-libldap
 lib32-libpulse
 lsof
-#lib32-nvidia-utils
-#libnotify
-#libxnvctrl
+libnotify
 network-manager-applet
-#nvidia-dkms
-#nvidia-settings
-#nvidia-utils
-#opensnitch
 pamac-aur
-#picom
-#python-grpcio
-#python-protobuf
-#python-slugify
-#python-pyqt5
-#python-pyinotify
-#steam
 ttf-ms-fonts
-#wine
-

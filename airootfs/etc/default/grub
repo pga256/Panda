@@ -3,8 +3,8 @@
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=6
 GRUB_DISABLE_OS_PROBER=false
-GRUB_DISTRIBUTOR="Game"
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nvidia-drm.modeset=1 libata.force=noncq loglevel=3"
+GRUB_DISTRIBUTOR="Panda"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nvidia-drm.modeset=1 loglevel=3"
 GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed

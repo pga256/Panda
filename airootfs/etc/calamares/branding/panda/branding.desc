@@ -6,7 +6,7 @@ windowSize: 800px,640px
 windowPlacement: center
 strings:
     productName:         Panda Linux 23.06
-    shortProductName:    Panda 23.06 Offline
+    shortProductName:    Panda 23.06
     version:             23.06
     shortVersion:        23.06
     versionedName:       Panda Linux 23.06
