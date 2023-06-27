@@ -53,7 +53,7 @@ linux-firmware
 #linux-firmware-marvell
 #livecd-sounds
 #lsscsi
-#lvm2
+lvm2
 #lynx
 man-db
 man-pages
