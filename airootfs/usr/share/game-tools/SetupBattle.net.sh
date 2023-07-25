@@ -14,8 +14,7 @@ if [[ -d "/home/$USER/wine" ]]; then
    else
        mkdir /home/$USER/wine
 fi
-export WINEPREFIX="/home/$USER/wine/bnet" WINEDEBUG=-all DXVK_LOG_LEVEL=none WINEDLLOVERRIDES=mshtml,mscoree=d
-wineboot -i
+WINEPREFIX="/home/$USER/wine/bnet" wineboot -i
 wget http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enGB.exe -P /tmp/
 sync
 WINEPREFIX="/home/$USER/wine/bnet" /usr/share/dxvk/setup_dxvk.sh install --symlink
