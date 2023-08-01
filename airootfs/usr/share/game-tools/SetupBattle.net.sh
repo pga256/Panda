@@ -14,11 +14,12 @@ if [[ -d "/home/$USER/wine" ]]; then
    else
        mkdir /home/$USER/wine
 fi
-WINEPREFIX="/home/$USER/wine/bnet" wineboot -i
+export WINEPREFIX="/home/$USER/wine/bnet"
+wineboot -u
 wget http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enGB.exe -P /tmp/
 sync
-WINEPREFIX="/home/$USER/wine/bnet" /usr/share/dxvk/setup_dxvk.sh install --symlink
+/usr/share/dxvk/setup_dxvk.sh install --symlink
 sync
 cp /usr/share/game-tools/icons/* /home/$USER/.local/share/icons/hicolor/48x48/apps/
-WINEPREFIX="/home/$USER/wine/bnet" wine /tmp/Battle.net-Setup-enGB.exe
+wine /tmp/Battle.net-Setup-enGB.exe
 rm /tmp/Battle.net-Setup-enGB.exe
