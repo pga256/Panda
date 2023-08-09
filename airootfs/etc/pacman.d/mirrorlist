@@ -5,8 +5,6 @@
 ##
 
 ## United Kingdom
-Server = http://lon.mirror.rackspace.com/archlinux/$repo/os/$arch
-## United Kingdom
 Server = https://mirror.netweaver.uk/archlinux/$repo/os/$arch
 ## United Kingdom
 Server = http://mirrors.melbourne.co.uk/archlinux/$repo/os/$arch

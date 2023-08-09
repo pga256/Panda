@@ -24,7 +24,7 @@ sync
 NVLOADED=$(lspci -k | grep -A 2 -E "(VGA|3D)" |grep "Kernel driver in use: nvidia")
 if  [[ $NVLOADED ]]
     then    
-        read -s -n 1 -p "SUCCESS!  Nvidia drivers have been installed. ** Reboot recommended. ** Press a key to exit . . ."
+        read -s -n 1 -p "SUCCESS!  Nvidia drivers have been installed. ** Reboot needed. ** Press a key to exit . . ."
         echo 'NoDisplay=true' >> /usr/share/applications/Nvidia-Installer.desktop
         echo 'NoDisplay=true' >> /usr/share/panda-tools/Nvidia-Installer.desktop
     else

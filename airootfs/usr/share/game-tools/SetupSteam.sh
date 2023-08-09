@@ -6,7 +6,7 @@ if [[ $(lspci |grep VGA |grep NVIDIA) ]]; then
    else
        echo You need to install the Nvidia driver and utilities first! 
        pkexec "/usr/share/panda-tools/nvidia-installer.sh"    
-       sync
+       sync  && return
    fi
 fi
 pacman -Sy steam --noconfirm
