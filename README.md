@@ -20,6 +20,13 @@ Login details for the live user session:
 Username: isouser
 Password: isouser
 
+IMPORTANT NOTICE
+If you experience errors with invalid package signatures, please do the following in a terminal:
+
+  sudo pacman-key --recv-key 29CD02430D2ABA44 --keyserver keyserver.ubuntu.com
+  sudo pacman-key --lsign-key 29CD02430D2ABA44
+  sudo pacman -Syy
+
 ---------------------------------------------------------------------------------------
 Once the system is installed, Nvidia users can easily install the
 latest Nvidia driver with the Nvidia-Installer utility.
