@@ -24,7 +24,9 @@ IMPORTANT NOTICE
 If you experience errors with invalid package signatures, please do the following in a terminal:
 
   sudo pacman-key --recv-key 29CD02430D2ABA44 --keyserver keyserver.ubuntu.com
+
   sudo pacman-key --lsign-key 29CD02430D2ABA44
+
   sudo pacman -Syy
 
 ---------------------------------------------------------------------------------------
