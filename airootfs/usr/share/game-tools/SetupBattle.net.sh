@@ -9,6 +9,14 @@ if [[ $(lspci |grep VGA |grep NVIDIA) ]]; then
        sync  && return
    fi
 fi
+#! /bin/bash
+
+if [[ -d "/usr/lib/wine" ]]; then
+       echo Wine is already installed.
+   else
+       echo Wine needs to be installed first.
+       pkexec pacman -Sy wine lib32-libldap lib32-gnutls lib32-libpulse gst-plugins-good gst-libav dxvk-mingw-git lib32-alsa-lib --noconfirm
+fi
 if [[ -d "/home/$USER/wine" ]]; then
        echo the Wine containers folder already exists.
    else
@@ -16,11 +24,9 @@ if [[ -d "/home/$USER/wine" ]]; then
 fi
 export WINEPREFIX="/home/$USER/wine/bnet"
 wineboot -u
-wget http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enGB.exe -P /tmp/
 sync
 sleep 10
 /usr/share/dxvk/setup_dxvk.sh install --symlink
 sync
 cp /usr/share/game-tools/icons/* /home/$USER/.local/share/icons/hicolor/48x48/apps/
-wine /tmp/Battle.net-Setup-enGB.exe
-rm /tmp/Battle.net-Setup-enGB.exe
+wine /usr/share/game-tools/Battle.net-Setup.exe
