@@ -15,7 +15,7 @@ if [[ -d "/usr/lib/wine" ]]; then
        echo Wine is already installed.
    else
        echo Wine needs to be installed first.
-       pkexec pacman -Sy wine lib32-libldap lib32-gnutls lib32-libpulse gst-plugins-good gst-libav dxvk-mingw-git lib32-alsa-lib --noconfirm
+       pkexec pacman -Sy wine lib32-libldap lib32-gnutls lib32-libpulse gst-plugins-good gst-libav dxvk-mingw-git lib32-alsa-lib --needed --noconfirm
 fi
 if [[ -d "/home/$USER/wine" ]]; then
        echo the Wine containers folder already exists.
