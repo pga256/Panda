@@ -18,7 +18,7 @@ images:
     productWelcome:      "logo2.png"
 slideshow:               "show.qml"
 style:
-   SidebarBackground:        "#357f8f"
+   SidebarBackground:        "#ffffff"
    SidebarText:              "#f1f1f0"
    SidebarTextCurrent:       "#8d814e"
    SidebarBackgroundCurrent: "#1a1c1b"
