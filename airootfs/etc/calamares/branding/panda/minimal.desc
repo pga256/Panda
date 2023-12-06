@@ -1,24 +1,24 @@
-componentName:  panda
+componentName:  pandax
 welcomeStyleCalamares:   false
 welcomeExpandingLogo:   true
 windowExpanding:    noexpand
 windowSize: 800px,640px
 windowPlacement: center
 strings:
-    productName:         Panda Linux 23.08
-    shortProductName:    Panda 23.08
+    productName:         Pandax 23.08
+    shortProductName:    Pandax 23.08
     version:             23.08
     shortVersion:        23.08
-    versionedName:       Panda Linux 23.08
-    shortVersionedName:  Panda 23.08
-    bootloaderEntryName: Panda
+    versionedName:       Pandax 23.08
+    shortVersionedName:  Pandax 23.08
+    bootloaderEntryName: Pandax
 images:
     productLogo:         "logo.png"
     productIcon:         "logo3.png"
     productWelcome:      "logo2.png"
 slideshow:               "show.qml"
 style:
-   SidebarBackground:        "#357f8f"
+   SidebarBackground:        "#ffffff"
    SidebarText:              "#f1f1f0"
    SidebarTextCurrent:       "#8d814e"
    SidebarBackgroundCurrent: "#1a1c1b"

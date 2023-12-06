@@ -5,20 +5,20 @@ windowExpanding:    noexpand
 windowSize: 800px,640px
 windowPlacement: center
 strings:
-    productName:         Panda Linux with Nvidia 23.09
-    shortProductName:    Panda Nvidia 23.09
+    productName:         Pandax N-Edition 23.09
+    shortProductName:    Pandax N-Edition 23.09
     version:             23.09
     shortVersion:        23.09
-    versionedName:       Panda Linux Nvidia 23.09
+    versionedName:       Pandax N-Edition 23.09
     shortVersionedName:  Panda 23.09
-    bootloaderEntryName: Panda with Nvidia
+    bootloaderEntryName: Pandax N-Edition
 images:
     productLogo:         "logo.png"
     productIcon:         "logo3.png"
     productWelcome:      "logo2.png"
 slideshow:               "show.qml"
 style:
-   SidebarBackground:        "#357f8f"
+   SidebarBackground:        "#ffffff"
    SidebarText:              "#f1f1f0"
    SidebarTextCurrent:       "#8d814e"
    SidebarBackgroundCurrent: "#1a1c1b"
